@@ -89,3 +89,30 @@ h1 {
   line-height: 1.2;
   font-weight: bold;
 }
+
+/* Services */
+
+#services-container {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.service img {
+  width: 5rem;
+  padding: 0 6rem;
+}
+
+.service img.paper {
+  width: 3.5rem;
+}
