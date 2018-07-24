@@ -95,7 +95,7 @@ h1 {
   font-weight: bold;
 }
 
-.small-menu {
+.menu ul.small-menu {
   display: none;
 }
 
